@@ -4,7 +4,7 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <meta name="google-site-verification" content="google-site-verification=5Ddv8kOQPrnnVa7AZoBoxLFSb8rk1wd4c8GWobt1Oy0"/>
-<title>Deva Sankar | MERN StackDeveloper</title>
+<title>Deva Sankar | MERN Stack Developer</title>
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230a0f2e'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-family='Georgia,serif' font-size='28' font-weight='700' fill='%23c9a84c'%3EDS%3C/text%3E%3Crect x='8' y='54' width='48' height='2' rx='1' fill='%23c9a84c' opacity='.6'/%3E%3C/svg%3E"/>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
 <style>
@@ -154,7 +154,7 @@ footer{position:relative;z-index:1;padding:2.5rem 10%;display:flex;justify-conte
 <canvas id="particles-canvas"></canvas>
 
 <nav id="navbar">
-  <div class="logo">Deva<span>.</span></div>
+  <div class="logo">Deva<span>.</span>Sankar</div>
   <ul class="nav-links">
     <li><a href="#home">Home</a></li>
     <li><a href="#about">About</a></li>
@@ -166,7 +166,7 @@ footer{position:relative;z-index:1;padding:2.5rem 10%;display:flex;justify-conte
 
 <section id="home">
   <div>
-    <p class="hero-tag">⬡ MERN StackDeveloper — Chennai, India</p>
+    <p class="hero-tag">⬡ MERN Stack Developer — Chennai, India</p>
     <h1 class="hero-title">
       Crafting Digital<br>
       <strong>Experiences</strong>
@@ -200,7 +200,7 @@ footer{position:relative;z-index:1;padding:2.5rem 10%;display:flex;justify-conte
         <span class="ds-avatar">DS</span>
         <div class="about-img-overlay">
           <div class="about-img-name">Deva Sankar</div>
-          <div class="about-img-role">MERN StackDeveloper</div>
+          <div class="about-img-role">MERN Stack Developer</div>
         </div>
       </div>
       <div class="about-img-accent"></div>
@@ -210,7 +210,7 @@ footer{position:relative;z-index:1;padding:2.5rem 10%;display:flex;justify-conte
       <h2 class="section-title">MERN Stack<strong>Developer</strong></h2>
       <div class="section-line"></div>
       <div class="about-text">
-        <p>I'm a passionate MERN StackDeveloper based in Chennai, with <span class="about-highlight">7+ years of production experience</span> building scalable web applications across healthcare, HR tech, fintech, and hospitality domains.</p>
+        <p>I'm a passionate MERN Stack Developer based in Chennai, with <span class="about-highlight">7+ years of production experience</span> building scalable web applications across healthcare, HR tech, fintech, and hospitality domains.</p>
         <p>Currently engineering robust digital solutions at <span class="about-highlight">Reliance Industries Limited</span> — one of India's largest Fortune 500 companies. I combine industrial-grade engineering thinking with modern web development.</p>
         <p>Specialising in the <span class="about-highlight">MERN stack, Vue.js, and Docker</span> — delivering pixel-perfect frontends and bulletproof backend APIs for every project.</p>
       </div>
@@ -345,7 +345,7 @@ function conn(){for(let i=0;i<pts.length;i++)for(let j=i+1;j<pts.length;j++){con
 function anim(){ctx.clearRect(0,0,canvas.width,canvas.height);pts.forEach(p=>{p.u();p.d();});conn();requestAnimationFrame(anim);}anim();
 
 // Typing
-const words=['React Applications.','Node.js APIs.','Vue.js Interfaces.','Docker Solutions.','MERN StackProducts.'];
+const words=['React Applications.','Node.js APIs.','Vue.js Interfaces.','Docker Solutions.','MERN Stack Products.'];
 let wi=0,ci=0,del=false;
 function type(){const w=words[wi];document.getElementById('typing').textContent=del?w.substring(0,ci--):w.substring(0,ci++);
 if(!del&&ci>w.length){setTimeout(()=>{del=true;},1500);setTimeout(type,100);return;}
@@ -361,7 +361,7 @@ document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
 // Projects
 const projects=[
   {title:'JioMart',category:'website',link:'https://www.jiomart.com/',desc:'India\'s largest online grocery & retail platform by Reliance — complete e-commerce website with millions of daily users',tech:['React','Node.js','Bootstrap','CSS']},
-  {title:'JioMart JCP',category:'fullstack',link:'https://platform.jiomartjcp.com/',desc:'Enterprise-grade JioMart seller platform — MERN Stackapp for managing JCP operations at scale for Reliance Retail',tech:['React','Node.js','Vue.js','MongoDB','Docker','Bootstrap']},
+  {title:'JioMart JCP',category:'fullstack',link:'https://platform.jiomartjcp.com/',desc:'Enterprise-grade JioMart seller platform — MERN Stack app for managing JCP operations at scale for Reliance Retail',tech:['React','Node.js','Vue.js','MongoDB','Docker','Bootstrap']},
   {title:'Winovr',category:'fullstack',link:'https://winovr.com/',desc:'Online resume builder targeting job seekers — built around winning the six-second recruiter scan. Tagline: Winning Resumes, Built to Recruit.',tech:['React','Bootstrap','Django']},
   {title:'Hearzap',category:'website',link:'https://www.hearzap.com/',desc:'Healthcare platform with doctor search & appointment booking',tech:['HTML','CSS','JavaScript','Bootstrap','Django']},
   {title:'Hearzap Admin',category:'adminpanel',link:'https://app.hearzap.com/auth/login/',desc:'Admin panel for full healthcare platform management',tech:['HTML','CSS','JavaScript','Bootstrap','Django']},
